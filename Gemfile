@@ -4,7 +4,14 @@ source 'https://rubygems.org'
 gem 'rails', '4.0.1'
 
 
-gem 'sqlite3'
+group :development do
+  gem 'sqlite3'
+end
+
+group :production do
+  gem 'pg'
+end
+
 gem 'carrierwave'
 gem 'mini_magick', '3.5.0'
 gem 'foreigner'
