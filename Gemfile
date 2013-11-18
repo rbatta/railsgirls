@@ -16,7 +16,7 @@ gem 'carrierwave'
 gem 'mini_magick', '3.5.0'
 gem 'foreigner'
 gem 'devise'
-gem 'whenever'
+gem 'whenever', require: false
 
 gem 'sass-rails', '~> 4.0.0'
 gem 'uglifier', '>= 1.3.0'
